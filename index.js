@@ -25,7 +25,7 @@ function takeANumber(currentLineofPeopleArray, newPersonsName){
 
 function nowServing(currentLineofPeople){
     //if currentLineofPeople array has no one in line, return a message of "no one waiting"
-  if currentLineofPeople.length === 0{
+  if (currentLineofPeople.length === 0){
     return "There is nobody waiting to be served!"
   }
 
