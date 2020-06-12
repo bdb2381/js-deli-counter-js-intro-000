@@ -62,7 +62,7 @@ function currentLine(currentLineofPeopleArray){
 
       for (let position = 0; position < currentLineofPeopleArray.lenghth; position+= 1){
           let variable = position+=1 + currentLineofPeopleArray[position]
-           namesAndPositionsInLine.push (variable)
+           namesAndPositionsInLine.push(variable)
         }
 
           console.log(`The line is currently: ${namesAndPositionsInLine}.`)
