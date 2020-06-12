@@ -16,3 +16,39 @@ function takeANumber(currentLineofPeopleArray, newPersonsName){
   return welcomeMessage
 
 }
+
+
+/*Build a function nowServing. This function should accept the current line of people (katzDeliLine) and return the first person in line and then remove that individual from the line. If there is nobody in line, it should return "There is nobody waiting to be served!"
+*/
+
+//currentLineofPeople is array of who is now in line waiting to get served
+
+function nowServing(currentLineofPeople){
+    //if currentLineofPeople array has no one in line, return a message of "no one waiting"
+  if currentLineofPeople.length === 0{
+    return "There is nobody waiting to be served!"
+  }  
+
+  else{
+    //put array[0] person into firstPersoninLine and return it
+    //remove or  'shift' the first person off the currentLineofPeople array 
+
+  let firstPersoninLine = currentLineofPeople[0]
+   currentLineofPeople.shift()
+
+  return firstPersoninLine
+  }
+}
+    
+
+
+
+  
+}
+
+
+
+
+
+
+
