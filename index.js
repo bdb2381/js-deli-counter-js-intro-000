@@ -27,11 +27,11 @@ function nowServing(currentLineofPeople){
     //if currentLineofPeople array has no one in line, return a message of "no one waiting"
   if currentLineofPeople.length === 0{
     return "There is nobody waiting to be served!"
-  }  
+  }
 
   else{
     //put array[0] person into firstPersoninLine and return it
-    //remove or  'shift' the first person off the currentLineofPeople array 
+    //remove or  'shift' the first person off the currentLineofPeople array
 
   let firstPersoninLine = currentLineofPeople[0]
    currentLineofPeople.shift()
@@ -39,16 +39,9 @@ function nowServing(currentLineofPeople){
   return firstPersoninLine
   }
 }
-    
 
 
 
-  
+
+
 }
-
-
-
-
-
-
-
