@@ -36,7 +36,7 @@ function nowServing(currentLineofPeople){
   let firstPersoninLine = currentLineofPeople[0]
    currentLineofPeople.shift()
 
-  return 'Currently serving ${firstPersoninLine}'
+  return `Currently serving ${firstPersoninLine}`
   }
 
 
