@@ -12,9 +12,7 @@ function takeANumber(currentLineofPeopleArray, newPersonsName){
     //write welcomeMessage using newPersonsName & newPersonsName position in line by knowing new person is always the last person to join which is the length of the array
   let welcomeMessage = `Welcome, ${newPersonsName}. You are number ${currentLineofPeopleArray.length} in line.`
 
-    //return the welcomeMessage 
+    //return the welcomeMessage
   return welcomeMessage
 
 }
-
-
