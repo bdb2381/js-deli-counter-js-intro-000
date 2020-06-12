@@ -10,7 +10,7 @@ function takeANumber(currentLineofPeopleArray, newPersonsName){
   currentLineofPeopleArray.push(newPersonsName)
 
   //determine what position newPersonsName is in IRL line (i.e. not array position) by adding 1 to array position
-let welcomeMessage = "Welcome " + newPersonsName + "."  "You are number "
+let welcomeMessage = "Welcome " + newPersonsName +   "You are number "
 
   //return welcomeMessage using newPersonsName & newPersonsName position in line
   return welcomeMessage
