@@ -55,8 +55,17 @@ function currentLine(currentLineofPeopleArray){
       return "The line is current empty."
     }
 
+      //else return message with names of people and their position in line
+    else{
+      //loop through array starting at [0] to get name and turn counter+1 into IRL position and store name and IRLPosition innew variable
+      for (let position = 0; position < currentLineofPeopleArray.lenghth; position+= 1){
 
-    //else return message with names of people and their position in line
+
+
+      }
+
+    }
+
 
 
 }
