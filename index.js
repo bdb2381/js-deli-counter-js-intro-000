@@ -38,10 +38,6 @@ function nowServing(currentLineofPeople){
 
   return firstPersoninLine
   }
-}
-
-
-
 
 
 }
