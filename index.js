@@ -51,7 +51,7 @@ function nowServing(currentLineofPeopleArray){
 
 function currentLine(currentLineofPeopleArray){
       //if no one in line, return message 'The line is currently empty.'
-    if (currentLineofPeopleArray === 0){
+    if (currentLineofPeopleArray.lenghth === 0){
       return "The line is current empty."
     }
 
