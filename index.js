@@ -60,9 +60,10 @@ function currentLine(currentLineofPeopleArray){
       //loop through array starting at [0] to get name and turn counter+1 into IRL position and store name and IRLPosition innew variable. Once done looping, return message about who is in what position.
       var namesAndPositionsInLine
       for (let position = 0; position < currentLineofPeopleArray.lenghth; position+= 1){
-           namesAndPositionsInLine = `The line is currently: ${position+=1}. currentLineofPeopleArray[position],`
+           namesAndPositionsInLine[] = ` position+=1 currentLineofPeopleArray[position]`
         }
-          console.log(namesAndPositionsInLine)
+
+          console.log(`The line is currently: ${namesAndPositionsInLine}.)
           console.log("hello hello hello")
         return
     }
