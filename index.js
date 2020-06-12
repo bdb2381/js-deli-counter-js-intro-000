@@ -53,10 +53,10 @@ function currentLine(currentLineofPeopleArray){
       //if no one in line, return message 'The line is currently empty.'
     if (currentLineofPeopleArray === 0){
       return "The line is current empty."
-    }  
+    }
 
-    
+
     //else return message with names of people and their position in line
-  
+
 
 }
