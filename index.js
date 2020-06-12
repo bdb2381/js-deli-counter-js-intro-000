@@ -15,7 +15,7 @@ function takeANumber(currentLineofPeopleArray, newPersonsName){
     //return the welcomeMessage
   return welcomeMessage
 
-}
+} //end takeANumber()
 
 ///////////////////////////////
 ///////////////////////////////
@@ -41,7 +41,7 @@ function nowServing(currentLineofPeopleArray){
 
   return `Currently serving ${firstPersoninLine}.`
   }
-}
+} // end nowServing()
 
 ///////////////////////////////
 ///////////////////////////////
@@ -72,7 +72,4 @@ function currentLine(currentLineofPeopleArray){
 
         return `The line is currently:${namesAndPositionsInLine}`
     }
-
-
-
-}
+} //end currentLine()
