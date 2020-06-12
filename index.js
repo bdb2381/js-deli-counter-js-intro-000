@@ -12,7 +12,7 @@ function takeANumber(currentLineofPeopleArray, newPersonsName){
   //determine what position newPersonsName is in IRL line (i.e. not array position) by adding 1 to array position
 
   //write welcomeMessage using newPersonsName & newPersonsName position in line
-let welcomeMessage = `Welcome ${newPersonsName}.  You are number ${currentLineofPeopleArray.length}  in line.`
+let welcomeMessage = `Welcome ${newPersonsName}.  You are number ${currentLineofPeopleArray.length} in line.`
 
   //return welcomeMessage using newPersonsName & newPersonsName position in line
   return welcomeMessage
