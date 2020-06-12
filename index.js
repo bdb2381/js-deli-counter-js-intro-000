@@ -8,7 +8,7 @@ function takeANumber(currentLineofPeople-Array, newPersonsName){
   //add newPersonsName to end of currentLineofPeople-Array
   currentLineofPeople-Array.push(newPersonsName)
 
-  //determine what position newPersonsName is in IRL line (i.e. not array position) by adding 1 to array position 
+  //determine what position newPersonsName is in IRL line (i.e. not array position) by adding 1 to array position
 let welcomeMessage = "Welcome ${newPersonsName}. You are number "
 
   //return welcomeMessage using newPersonsName & newPersonsName position in line
