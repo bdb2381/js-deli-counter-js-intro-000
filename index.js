@@ -63,7 +63,7 @@ function currentLine(currentLineofPeopleArray){
       for (let position = 0; position < currentLineofPeopleArray.length; position+= 1){
           let IRLposition = position + 1    //to get the IRL postion, need to add 1 to array position
 
-        //  let variable = ` ${IRLposition}. ${currentLineofPeopleArray[position]}` //concat two variables into one variable 
+          let variable = ` ${IRLposition}. ${currentLineofPeopleArray[position]}` //concat two variables into one variable 
 
           namesAndPositionsInLine.push(` ${IRLposition}. ${currentLineofPeopleArray[position]}`)
           // console.log(position)    used to debug code and see what is happening
