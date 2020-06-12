@@ -24,20 +24,25 @@ function takeANumber(currentLineofPeopleArray, newPersonsName){
 //currentLineofPeople is array of who is now in line waiting to get served
 
 function nowServing(currentLineofPeople){
+    //purpose of If statement
     //if currentLineofPeople array has no one in line, return a message of "no one waiting"
   if (currentLineofPeople.length === 0){
     return "There is nobody waiting to be served!"
   }
 
   else{
-    //put array[0] person into firstPersoninLine and return it
+    //Puprose of else statement:
+    //put array[0] person into firstPersoninLine and return it with a greeting
     //remove or  'shift' the first person off the currentLineofPeople array
 
-  let firstPersoninLine = currentLineofPeople[0]
-   currentLineofPeople.shift()
+  let firstPersoninLine = currentLineofPeople[0]  //get the name of the first person in line
+  currentLineofPeople.shift()   //remove the first person in line
 
   return `Currently serving ${firstPersoninLine}.`
   }
-
-
 }
+
+
+
+/*Build a function currentLine that accepts the current line of people and returns the current line as a string; for example, if 'katzDeliLine' is currently ["Ada", "Grace"], currentLine(katzDeliLine) would return "The line is currently: 1. Ada, 2. Grace". You don't have to use katzDeliLine as a variable or parameter name in your function though, it's just an example of a variable that might be passed to it. If there is nobody in line, it should return "The line is currently empty."
+*/
